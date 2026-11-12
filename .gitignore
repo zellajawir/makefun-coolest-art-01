@@ -1,0 +1,37 @@
+# Original artwork stays local; the submission copy is included.
+/sun.png
+/art-original.png
+
+# Credentials and signing material
+.env
+.env.*
+*credentials*
+*keypair*
+wallet*.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.ssh/
+secrets.*
+.aws/
+.makefun/credentials*
+
+# Private sessions and generated bundles
+*.jsonl
+*.log
+*transcript*
+*.tar.gz
+*.bundle
+.codex/
+.agents/
+
+# Test outputs and local tools
+/out/
+/output/
+/test-output*/
+/.test-artifacts/
+node_modules/
+__pycache__/
